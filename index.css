@@ -2,4 +2,25 @@ body {
 	width: 100vw;
 	height: 100vh;
 	background-color: skyblue;
+	
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: center;
+	align-items: center;
+	
+	font-size: 1vw;
+	font-family: "Merriweather", "Helvetica", sans-seriff;
+}
+
+#constructionText {
+	font-size: 3vw;
+	/*color: #00aeef;
+	-webkit-text-stroke: 0.02vw white;*/
+}
+
+img {
+	padding-top: 1vw;
+	padding-bottom: 1vw;
+	height: 25%;
+	width: auto;
 }
